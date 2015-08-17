@@ -1,0 +1,45 @@
+body{
+
+}
+
+
+#banner{
+	position: absolute;
+	margin-top: 50px;
+	padding: 10px;
+	height: 100px;
+	width: 100%;
+	background-color: blue;
+	
+}
+
+.social{
+	float: right;
+	position: absolute;
+	top: 5px;
+	right: 50px;
+	height: 40px;
+	padding: 0px;
+	margin: 0px;
+	background-color: white;
+	
+
+}
+
+nav{
+
+
+}
+
+nav ul li{
+	list-style: none;
+	float: left;
+	text-align: center;
+	margin: 0 auto;
+	padding-left: 200px;
+	margin-bottom: 15px;
+	font-size: 100px;
+	font-family: "MeltFactory", regular;
+	color: white;
+}
+
