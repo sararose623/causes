@@ -5,11 +5,11 @@ body{
 
 #banner{
 	position: absolute;
-	margin-top: 50px;
+	top: 30px;
 	padding: 10px;
-	height: 100px;
+	height: 80px;
 	width: 100%;
-	background-color: blue;
+	background-color: rgb(14, 143, 189);
 	
 }
 
@@ -38,8 +38,44 @@ nav ul li{
 	margin: 0 auto;
 	padding-left: 200px;
 	margin-bottom: 15px;
-	font-size: 100px;
+	font-size: 80px;
 	font-family: "MeltFactory", regular;
 	color: white;
 }
 
+#background{
+    position: absolute;
+    margin: 0 auto;
+    top: 250px;
+    z-index: -1;
+
+}
+
+#box{
+	position: absolute;
+	top: 200px;
+	left: 25%;
+	z-index: 10;
+	margin: 0 auto;
+	padding: 10px;
+	width: 50%;
+	height: 600px;
+	background-color: rgba(255,255,255,.5);
+	font-size: 28pt;
+	font-family: "century gothic";
+	text-align: center;
+}
+
+#title{
+	font-size: 120px;
+	font-family: "MeltFactory", regular;
+}
+
+#sponsors{
+	position: absolute;
+	left: 35%;
+	float: left;
+	font-family: "century gothic";
+	font-size: 15pt;
+
+}
