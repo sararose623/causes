@@ -5,3 +5,5 @@ $(document).ready(function(){
         
     });
 });
+
+object.onmouseover=function(){myScript};

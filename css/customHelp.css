@@ -1,7 +1,23 @@
 body{
-	
+	background: linear-gradient(rgb(14,143,189), white);
 }
 
+ form{
+ 	position: fixed;
+ 	top: 400px;
+ 	right: 50px;
+ 	background: rgba(255,255,255,.5);
+ 	border: solid 3px rgb(14,143,189);
+ 	border-radius: 10px;
+ 	padding-left: 15px;
+ 	padding-right: 15px;
+ 	padding-top: 15px;
+ 	padding-bottom: 20px;
+ 	font-size: 16pt;
+	font-family: "century gothic";
+	color: rgb(14,143,189);
+
+ }
 
 #banner{
 	position:fixed;
@@ -11,6 +27,7 @@ body{
 	height: 80px;*/
 	width: 100%;
 	background-color: rgb(14, 143, 189);
+	border-bottom: solid 2px white;
 	
 }
 
@@ -49,6 +66,7 @@ nav ul li{
 	left: 20px;
 	font-size: 120px;
 	font-family: "MeltFactory", regular;
+	color: white;
 }
 
 .help{
