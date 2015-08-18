@@ -43,7 +43,6 @@ nav ul li{
 }
 
 
-
 #title{
 	position: relative;
 	top: 0;
@@ -52,7 +51,7 @@ nav ul li{
 	font-family: "MeltFactory", regular;
 }
 
-.issue{
+.help{
 	position: relative;
 	top: 0;
 	width: 850px;
@@ -60,9 +59,26 @@ nav ul li{
 
 }
 
+.bubble{
+	position: relative;
+	top: 0;
+	float: left;
+}
+
+.tips{
+	position: absolute;
+	top: 150px;
+	left: 25%;
+	margin: 0 auto;
+	float: left;
+	width: 500px;
+	z-index: 5;
+	font-size: 23pt;
+	text-align: center;
+}
+
 p{
 	font-family: "century gothic";
-	font-size: 16pt;
 	color: rgb(123,123,123);
 }
 

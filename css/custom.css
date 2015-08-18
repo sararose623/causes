@@ -4,8 +4,9 @@ body{
 
 
 #banner{
-	position: absolute;
+	position: fixed;
 	top: 5px;
+	z-index: 10;
 	/*padding: 10px;
 	height: 80px;*/
 	width: 100%;
@@ -39,10 +40,6 @@ nav ul li{
 	font-size: 80px;
 	font-family: "MeltFactory", regular;
 	color: white;
-}
-
-nav ul li:hover{
-	background-color: white;
 }
 
 
